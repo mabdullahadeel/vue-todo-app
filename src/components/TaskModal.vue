@@ -40,7 +40,10 @@ export default {
                 this.inputValue = ""
                 this.closeModal()
             } else if (this.mode === "update"){
-                console.log("updatemode")
+                const currentTask = this.tasks.filter(task => task.id === this.currentID)
+                let ind = this.tasks.indexOf(currentTask[0])
+                this.tasks[ind].task = this.inputValue
+                this.closeModal()
             }
         }
     },
