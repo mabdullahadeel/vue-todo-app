@@ -7,3 +7,4 @@ This app is a simple todo app. User can add the task, edit task and mark the tas
 - Delete todo
 - Mark Todo as done
 - Edit Todo
+
